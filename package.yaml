@@ -22,6 +22,10 @@ dependencies:
 - aeson
 - text
 
+ghc-options:
+- -optl-static
+- -fPIC
+
 library:
   dependencies:
   - base
